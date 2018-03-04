@@ -33,6 +33,6 @@ Inside the **42 clusters** you can easily run:
 
 [@zazard](https://github.com/zazard)
 
-### **CC License**
+### **License**
 
-This work is provided under the terms of this license: [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
+This work is published under the terms of **[42 Unlicense](https://github.com/gcamerli/42unlicense)**.
