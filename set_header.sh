@@ -2,16 +2,24 @@
 # ./set_header.sh
 
 # Set variables
-cat >> ~/.zshrc << EOF
 
-# 42 settings
-USER=`/usr/bin/whoami`
-export USER
-GROUP=`/usr/bin/id -gn $user`
-export GROUP
-MAIL="$USER@student.42.fr"
-export MAIL
-EOF
+if [ ! -z "$USER" ]
+then
+    echo "USER=`/usr/bin/whoami`" >> ~/.zshrc
+    echo "export USER" >> ~/.zshrc
+fi
+
+if [ ! -z "$GROUP" ]
+then
+    echo "GROUP=`/usr/bin/id -gn $user`" >> ~/.zshrc
+    echo "export GROUP" >> ~/.zshrc
+fi
+
+if [ ! -z "$MAIL" ]
+then
+    echo "MAIL="$USER@student.42.fr"" >> ~/.zshrc
+    echo "export MAIL" >> ~/.zshrc
+fi
 
 mkdir -p ~/.vim/plugin
 
