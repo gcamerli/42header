@@ -21,7 +21,9 @@ Copy `stdheader.vim` in your `~/.vim/plugin`.
 
 In **NORMAL** mode you can use `:Stdheader` or simply press the shortcut <kbd>F1</kbd>.
 
-Under **Linux** you eventually need to disable the **help** shortcut of your **shell**.
+Under **Linux** you eventually need to disable the **help** shortcut of your **terminal** :
+
+For **Terminator**, right click -> Preferences -> Shortcuts -> change help with something other than <kbd>F1</kbd>
 
 ### **Note**
 
