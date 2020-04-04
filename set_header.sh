@@ -13,5 +13,9 @@ MAIL="$USER@student.42.fr"
 export MAIL
 EOF
 
+mkdir -p ~/.vim/plugin
+
 # Add stdheader to vim plugins
 cp vim/stdheader.vim ~/.vim/plugin/
+
+source ~/.zshrc
